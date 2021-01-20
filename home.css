@@ -9,7 +9,7 @@
 }
 
 body{
-    background: linear-gradient(45deg, #e2602d, #e0d100);
+    background: linear-gradient(45deg,#e2602d, #e0d100);
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: vw;
@@ -47,7 +47,7 @@ main h2::before{
     bottom: 3px;
     left: 0;
     border-radius: 8px;
-    background: linear-gradient(45deg,#e2602d, #e0d100);
+    background: linear-gradient(45deg, #e2602d, #e0d100);
 }
 
 .input-field{
@@ -77,7 +77,7 @@ form .input-field:first-child, form .input-field:nth-child(2){
     width: 100%;
     bottom: -5px;
     left: 0;
-    background: linear-gradient(45deg, #e2602d, #e0d100);
+    background: linear-gradient(45deg,#e2602d, #e0d100);
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
     transform-origin: left;
@@ -93,15 +93,14 @@ form .input-field:first-child, form .input-field:nth-child(2){
 
 }
 
-
 .input-field input::placeholder{
     color: rgba(0, 0, 0, 0.5);
 }
 
-form input[type="button"]{
+form input[type="submit"]{
     margin-top: 2rem;
     padding: 0.4rem;
-    background: linear-gradient(to left,#e2602d, #e0d100);
+    background: linear-gradient(to left, #e0d100, #e2602d);
     cursor: pointer;
     color: white;
     font-size: 0.9rem;
@@ -109,28 +108,10 @@ form input[type="button"]{
     border-radius: 4px;
     transition: all 0.3s ease;
 }
-#Continue {
-    margin-top: 2rem;
-    padding: 0.4rem;
-    background: linear-gradient(to left, #e2602d, #e0d100);
-    font-size: 0.9rem;
-    font-weight: 300;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    text-align: center;
 
-}
-
-#Continue a{
-    text-decoration: none;
-    color: white;
-
-
-}
-form input[type="button"]:hover{
+form input[type="submit"]:hover{
     letter-spacing: 0.5px;
-    background: linear-gradient(to right, #e2602d, #e0d100);
+    background: linear-gradient(to right, #e0d100, #e2602d);
 }
 
 .footer{
@@ -169,13 +150,4 @@ form input[type="button"]:hover{
 
 .footer .social-field.facebook{
     background: linear-gradient(to right, #1e3c72, #2a5298);
-}
-.footer .social-field.register a{
-    color: #e27e2d;
-
-}
-
-.footer .social-field.register{
-    text-align: center;
-
 }
